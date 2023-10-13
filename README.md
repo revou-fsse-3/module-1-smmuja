@@ -22,9 +22,9 @@ Coming from a non-tech background, I learn everything I need on the job, and rea
 ## My Favorite Websites
 |Name   |URL    |Reason |
 |---    |---    |---    |
-|Google |Google.com |Source of many things  |
-|Quora  |Quora.com  |Source of inspirations   |
-|Instagram  |Instagram.com    |Source of random memes, quotes, and cats|
+|Google |https://www.google.com |Source of many things  |
+|Quora  |https://www.quora.com  |Source of inspirations   |
+|Instagram  |https://www.instagram.com    |Source of random memes, quotes, and cats|
 ## My Activities
 ### Working
 ```
@@ -37,9 +37,10 @@ Hello, how can I help you? 😊👩‍💻
 - FSSE (Full Stack Software Engineering)
 
     6 + 3 month full stack Software Engineering Course
+    💥On going💥
 
 - FCSE (Fundamental Course Software Engineering)
-2-week fundamental course of software engineering
+    2-week fundamental course of software engineering
     Output : [Fictional Company Profile](https://revou-fundamental-course.github.io/29-may-23-smmuja/)
 
 ### Blogging
@@ -49,6 +50,7 @@ Hello, how can I help you? 😊👩‍💻
 
 ### CATS
 ![Cat Photo](assets/cat.jpg)
+
 I love talking to my cats in my free time
 
 ```
