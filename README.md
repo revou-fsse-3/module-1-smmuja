@@ -34,14 +34,14 @@ Hello, how can I help you? 😊👩‍💻
 
 ### Learning Software Engineering
 
-- FSSE (Full Stack Software Engineering)
+1. FSSE (Full Stack Software Engineering)
 
-    6 + 3 month full stack Software Engineering Course
-    💥On going💥
+   - 6 + 3 month full stack Software Engineering Course
+   - 💥On going💥
 
-- FCSE (Fundamental Course Software Engineering)
-    2-week fundamental course of software engineering
-    Output : [Fictional Company Profile](https://revou-fundamental-course.github.io/29-may-23-smmuja/)
+2. FCSE (Fundamental Course Software Engineering)
+    - 2-week fundamental course of software engineering
+    - Output : [Fictional Company Profile](https://revou-fundamental-course.github.io/29-may-23-smmuja/)
 
 ### Blogging
 
