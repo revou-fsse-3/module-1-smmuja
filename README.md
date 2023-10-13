@@ -1,5 +1,5 @@
 # Siti Muja Profile
-> Get to know me better
+> Get to know me better 👋🌸
 ## My Bio
 ```
 Hi, Im Muja, an aspiring Software Engineer
@@ -53,5 +53,5 @@ I love talking to my cats in my free time
 
 ```
 It would be an endless long list so might be better to stop here for now
-Basically I'm into many things, let's be friends 👋
+Basically I'm into many things, let's be friends 🌸
 ```
