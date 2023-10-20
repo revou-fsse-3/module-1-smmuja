@@ -1,21 +1,3 @@
-# Moo Branding
-<p>A fictional Company Branding Profile</p>
-
-## This Company Profile include:
-- Home
-- Service Section
-- Portfloio Section
-- Call to action
-Call to action goal : Make a purchase
-
-## Deployed here:
-https://moo-branding.netlify.app/
-
-## Overview
-- Desktop View
-![Desktop](assets/moo-desktop.png)
-
-
 # Siti Muja Profile
 > Get to know me better 👋🌸
 ## My Bio
@@ -67,7 +49,7 @@ Hello, how can I help you? 😊👩‍💻
 - [deardeadliner.com](https://www.deardeadliner.com) : Passion Project
 
 ### CATS
-<!-- ![Cat Photo](assets/cat.jpg) -->
+![Cat Photo](assets/cat.jpg)
 
 I love talking to my cats in my free time
 
