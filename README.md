@@ -49,7 +49,7 @@ Hello, how can I help you? 😊👩‍💻
 - [deardeadliner.com](https://www.deardeadliner.com) : Passion Project
 
 ### CATS
-![Cat Photo](assets/cat.jpg)
+<!-- ![Cat Photo](assets/cat.jpg) -->
 
 I love talking to my cats in my free time
 
@@ -57,3 +57,4 @@ I love talking to my cats in my free time
 It would be an endless long list so might be better to stop here for now
 Basically I'm into many things, let's be friends 🌸
 ```
+**************************
