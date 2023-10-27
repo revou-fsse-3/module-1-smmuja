@@ -1,5 +1,9 @@
 
 html{scroll-behavior: smooth;}
+
+/* header{
+    align-items: center;
+} */
 nav {
     /* position:fixed; */
     background-color: aliceblue;
@@ -8,29 +12,49 @@ nav {
     align-items: center;
     height: 52px;
     border-bottom: 2px, solid, #222;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    /* overflow: hidden; */
 
 }
-#nav-bar{
+#nav-top{
     
     display: flex;
     /* border: 1px solid black; */
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    /* overflow: hidden; */
     
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .nav-item {
-    display: inline-block;
+    float: left;
+    display: block;
     padding: 5px 1em;
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    /* border-radius: 15px; */
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     
+}
+
+.nav-bar:hover {
+    background: lightblue;
+    margin-top: -3px;
+}
+.nav-item:hover {
+    background: lightblue;
+    margin-top: -3px;
 }
 
 .logo{
@@ -52,7 +76,9 @@ nav {
     flex-direction: row;
     padding-left: 65px;
 }
+/* Nav end */
 
+/* Main start */
 #main {
     text-align: left;
     color: black;
@@ -69,50 +95,32 @@ nav {
     margin-left: 20px;
     margin-top: 20px;
     text-decoration: none;
-}
-#main-grow{
-    background-color: rgb(254, 169, 42);
-    border-radius: 10%;
+    justify-content: center;
 }
 
-#main-text-1{
-    /* background-color:white; */
-    /* padding: 5px 5px 5px 5px; */
-    font-size: 10pt;
-}
-#main-text-2{
-
-}
-#main-text-3{
-
-}
-#main-text-explore{
+#cta-explore {
     color: white;
     font-size: 14pt;
     font-weight: bold;
     background-color:rgb(227, 31, 31);
     padding: 12px 12px 12px 12px;
+    margin-top: 12px;
     margin-left: 12px;
     border-radius: 5%;
     text-decoration: none;
 }
-#main-image{
 
-}
+/* Main end */
 
-#intro{
-    text-align:left;
-    color: #222;
-    background-color: aliceblue;
-    width: 100%;
-    /* display: flex;
-    flex-direction: column; */
-    justify-content: center;
-}
+/* Section start */
+
+/* Section end */
+
+/* Grid container */
 
 .grid-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 0 1em;
     width: 100%;
@@ -124,26 +132,60 @@ nav {
     border: 1px solid black;
 }
 
+.grid-container-aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+    width: 100%;
+}
+.grid-container-image-aside{
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Grid container end */
+
 .grid-container-figcaption{
     text-align: center;
 }
-#our-services {
+#campaign {
+    background-color: palevioletred;
+}
+#service {
     background-color: aliceblue;
 }
-#our-portfolios{
+
+#portfolio {
     background-color: blanchedalmond;
 }
-/* #services-1{
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
-    border: 1px solid black;
-} */
 
+#h2-campaign{
+    text-align: center;
+}
+#campaign-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#cta-campaign {
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color:rgb(227, 31, 31);
+    padding: 12px 12px 12px 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+/* Form Section */
 #form-section {
     padding: 40px;
     /* border-radius: 5%; */
-    background-color: aliceblue;;
+    background-color: aliceblue;
     color: #000000;;
     display: flex;
     flex-direction: column;
@@ -164,56 +206,24 @@ nav {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+#formsubmit{
+    background-color:whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* End of form section */
 
 footer {
     text-align: right;
 }
-
-@media only screen and (max-width:600px) {
-    #logo{
-        flex-direction: column;
-        width: 10px;
-        height: 10px;
-    }
-    #logo-text {
-        width: 10px;
-        height: 10px;
-    }
-    h2 {
-        text-align: center;
-    }
-    nav{
-        height: auto;
-        flex-direction: column; 
-    }
-    #nav-bar{
-        width: 100%;
-        flex-direction: column;
-    }
-    #nav-item{
-        width: 100%;
-        flex-direction: column;
-    }
-    #main {
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } 
-    #main-text{
-
-    }
-    #main-image{
-        display: none;
-    }
-    .grid-container{
-        width: 100%;
-        flex-direction: column;
-    }
-    .grid-container-image{
-        flex-direction: column;
-    }
-    #form-section{
-        width: 100%;
-    }
+#footer-nav {
+    display: inline-block;
+    padding: 8px 8px 8px 8px ;
 }

@@ -1,0 +1,68 @@
+/* Media only screen */
+@media only screen and (max-width:600px), (max-width:768px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #logo{
+        
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+        width: 10px;
+        height: 10px;
+
+    }
+    #logo-text {
+        width: 10px;
+        height: 10px;
+        display: none;
+    }
+    h2 {
+        text-align: center;
+    }
+    nav{
+        height: auto;
+        flex-direction: column; 
+    }
+    #nav-bar{
+        width: 100%;
+        flex-direction: column;
+    }
+    #nav-item{
+        width: 100%;
+        flex-direction: column;
+    }
+    #main {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    #main-image{
+        display: none;
+    }
+    .grid-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .grid-container-image{
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+    }
+    .grid-container-aside{
+        width: 100%;
+        flex-direction: column;
+    }
+    .grid-container-image-aside{
+        flex-direction: column;
+    }
+
+    .input-form, .label-name {
+        width: 90%;
+    }
+
+}

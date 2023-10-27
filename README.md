@@ -23,7 +23,7 @@ https://moo-branding.netlify.app/
 Hi, Im Muja, an aspiring Software Engineer
 Currently working as a Customer Success Specialist in a web hosting company
 ```
-![Muja Photo](assets/muja.jpg)
+![Muja Photo](assets/img/muja.jpg)
 
 Coming from a non-tech background, I learn everything I need on the job, and realizing it won't satisfy my aspiration since I need to balance my own goals and company business goals, I decided to pursue another learning journey outside work. After thoughtful consideration of several possible options, RevoU became my choice.
 
