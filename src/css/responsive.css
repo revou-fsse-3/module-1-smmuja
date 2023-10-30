@@ -1,68 +1,53 @@
-/* Media only screen */
-@media only screen and (max-width:600px), (max-width:768px) {
-    .container{
-        display:flex;
+@media only screen and (max-width:680px), (max-width:768px) {
+    .container {
+        display: flex;
         flex-direction: column;
     }
 
-    #logo{
-        
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center; */
-        width: 10px;
-        height: 10px;
-
-    }
-    #logo-text {
-        width: 10px;
-        height: 10px;
-        display: none;
-    }
     h2 {
         text-align: center;
     }
-    nav{
-        height: auto;
-        flex-direction: column; 
-    }
+    /* Logo start  */
     #nav-bar{
-        width: 100%;
-        flex-direction: column;
-    }
-    #nav-item{
-        width: 100%;
-        flex-direction: column;
-    }
-    #main {
-        height: 350px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    } 
+        align-items: center;
+    }
 
-    #main-image{
+    #logo-text {
         display: none;
     }
-    .grid-container{
-        width: 100%;
-        flex-direction: column;
-    }
-    .grid-container-image{
-        flex-direction: column;
-        height: 90%;
-        width: 90%;
-    }
-    .grid-container-aside{
-        width: 100%;
-        flex-direction: column;
-    }
-    .grid-container-image-aside{
-        flex-direction: column;
-    }
+    /* Logo end  */
 
-    .input-form, .label-name {
-        width: 90%;
+    /* Main start  */
+    #main-image {
+        display: none;
     }
+    /* Main end  */
+/* Section campaign start */
+#campaign {
+    padding-top: 30px;
+}
+/* Section campaign end */
 
+/* Section service start */
+#service {
+    display: flex;
+    flex-direction: column;
+}
+/* Section service  end */
+
+/* Section portfolio start */
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
+/* Section portfolio end */
+
+/* Section grid container start */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+}
+/* Section grid container end */
 }

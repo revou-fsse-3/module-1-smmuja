@@ -1,139 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Montserrat' sans-serif;
-    overflow-x: hidden;
-}
-
-/* Navbar */
-nav {
-    display: flex;
-    background-color: aliceblue;
-    justify-content: space-around;
-    /* padding: 20px 0; */
-    /* color:antiquewhite; */
-    height: 50px;
-    align-items: center;
-}
-
-/* nav .logo{
-    font-family: cursive;
-    letter-spacing: 3px;
-} */
-
-/* nav ul {
-    display: flex;
-    list-style: none;
-    width: 40%;
-    justify-content: space-between;
-} */
-
-/* nav ul li a {
-    color:antiquewhite;
-    text-decoration: none;
-    font-size: 1em;
-} */
-
-nav ul li a:hover {
-    color: antiquewhite;
-}
-
-/* Hamburger Menu */
 .hamburger {
     display: none;
     flex-direction: column;
     height: 20px;
     justify-content: space-between;
     position: relative;
-
-}
-
-.hamburger input{
-    position: absolute;
-    width: 40px;
-    height: 28px;
-    left: -5px;
-    top: -3px;
-    opacity: 0;
     cursor: pointer;
-    z-index: 2;
+
 }
 
+@media only screen and (max-width:680px), (max-width:768px) {
 
-/* .hamburger span {
-    display: block;
-    width: 28px;
-    height: 3px;
-    background-color: whitesmoke;
-    border-radius: 3px;
-    transition: all 0.5s;
-}  */
 
-Hamburger Animation
-
-/* .hamburger span:nth-child(2){
-    background-color: red;
-    transform-origin: 0 0; 
-}
-
-.hamburger span:nth-child(4){
-    background-color: red;
-    transform-origin: 0 100%;
-} */
-
-.hamburger input:checked ~ span:nth-child(2) {
-    background-color: whitesmoke;
-    transform: rotate(45deg) translate(-1px, -1px);
-} 
-
-.hamburger input:checked ~ span:nth-child(4) {
-    transform: rotate(-45deg) translate(-1px, 0);
-}
-
-.hamburger input:checked ~ span:nth-child(3) {
-    opacity: 0;
-    transform: scale(0);
-}
-
-/* Responsive Breakpoint */
-
-/* Tablet size */
-
-@media screen and (max-width:768px) {
-    nav ul {
-        width: 50%;
-        
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
-}
 
-
-/* Mobile size */
-
-@media screen and (max-width:576px) {
+    /* Hamburger start */
     .hamburger {
         display: flex;
     }
 
-    .nav-bar {
-        position:absolute;
+    .nav-list {
+        position:fixed;
         right: 0;
-        /* top: 0;
-        width: 80%;
+        top: 0;
+        width: 40vw;
         height: 50vh;
         padding-left: 10%;
-        justify-content: space-evenly;
+        justify-content:space-evenly;
         flex-direction: column;
         align-items:flex-start;
-        background-color: blueviolet; */
+        background-color: aliceblue;
         z-index: -1;
         transform: translateX(100%);
         transition: all 1s;
     }
 
-    nav ul.slide {
+    .nav-item {
+        border: none;
+    }
+
+    .slide {
         transform: translateX(0);
     }
+    
+        /* Hamburger end */
+
 }

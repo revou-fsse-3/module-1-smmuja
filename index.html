@@ -7,7 +7,7 @@
     <link
     rel="icon"
     type="image/png"
-    href="../assets/img/moo/moo-logo.png"
+    href="../assets/img/moo/moo-logo-favicon.png"
     />
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/grid.css">
@@ -18,20 +18,19 @@
     
     <div class="container">
         <header>
-            <nav id="nav-top">
+            <nav id="nav-bar">
                 <div class="logo">
-                    <img id="logo-image" src="assets/img/moo/moo-logo-remove.png" alt="Moo Logo"/>
+                    <img id="logo-image" src="assets/img/moo/moo-logo.png" alt="Moo Logo"/>
                     <b id="logo-text">#YourBrandingPartner</b>
                 </div>
-                <div class="nav-bar">
+                <div class="nav-list" id="nav-list">
                     <a class="nav-item" href="#">Home</a>
                     <a class="nav-item" href="#service">About</a>
                     <a class="nav-item" href="#portfolio">Portfolio</a>
                     <a class="nav-item" href="#form-section">Contact</a>
                 </div>
     
-                <div class="hamburger">
-                    <input type="checkbox"/>
+                <div class="hamburger" id="hamburger">
                     <img src="assets/icon/hamburger-menu.svg">
                 </div>
             </nav>
@@ -91,7 +90,7 @@
             </div>
             <iframe 
                 loading="lazy"
-                width="90%" 
+                width="100%" 
                 height="315"
                 src="https://www.youtube.com/embed/wLuVTfq4eKg"
                 title="Youtube video player"
@@ -239,7 +238,6 @@
 
     
     <script src="src/js/index.js"></script>
-    <script src="src/js/stickynav.js"></script>
     <script src="src/js/hamburger.js"></script>
 </body>
 </html>

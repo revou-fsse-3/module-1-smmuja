@@ -4,16 +4,36 @@
 ## This Company Profile include:
 - Home
 - Service Section
-- Portfloio Section
-- Call to action
-Call to action goal : Make a purchase
+- Portfolio Section
+- Call to action 
+- Call to action goal : Make a purchase
 
 ## Deployed here:
 https://moo-branding.netlify.app/
 
-## Overview
+## Version
+
+### Version 1.3 (Latest)
+Link : https://moo-branding.netlify.app/
 - Desktop View
-![Desktop](assets/moo-desktop.png)
+![Desktop](assets/img/moo-desktop-3.png)
+- Mobile View
+![Mobile](assets/img/moo-mobile-3.png)
+
+### Version 1.2
+Link : https://moo-branding-2.netlify.app/
+- Desktop View
+![Desktop](assets/img/moo-desktop-2.png)
+- Mobile View
+![Mobile](assets/img/moo-mobile-2.png)
+
+### Version 1
+Link : https://moo-branding-1.netlify.app/
+- Desktop View
+![Desktop](assets/img/moo-desktop-1.png)
+- Mobile View
+![Mobile](assets/img/moo-mobile-1.png)
+
 
 
 # Siti Muja Profile
