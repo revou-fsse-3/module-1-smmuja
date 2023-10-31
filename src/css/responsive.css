@@ -44,6 +44,12 @@
 }
 /* Section portfolio end */
 
+/* Section form start */
+.input-form, label-name {
+    width: 90%;
+}
+/* Section form end */
+
 /* Section grid container start */
 .grid-container {
     display: flex;
